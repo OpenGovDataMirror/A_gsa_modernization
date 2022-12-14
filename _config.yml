@@ -1,0 +1,54 @@
+# OpenGraph / Twitter metadata
+title: Report to the President on Federal IT Modernization
+small_title: Report on Federal IT Modernization
+smallest_title: Federal IT Modernization
+description: Report to the President on Federal IT Modernization.
+
+report_url: "https://itmodernization.cio.gov/assets/report/Report%20to%20the%20President%20on%20IT%20Modernization%20-%20Final.pdf"
+draft_url: https://itmodernization.cio.gov/assets/report/Report%20to%20the%20President%20on%20IT%20Modernization%20-%20Draft.pdf
+
+# Temporary for preview purposes:
+# report_url: "https://federalist-proxy.app.cloud.gov/preview/gsa/modernization/final-report/assets/report/Report%20to%20the%20President%20on%20IT%20Modernization%20-%20Final.pdf"
+# draft_url: "https://federalist-proxy.app.cloud.gov/preview/gsa/modernization/final-report/assets/report/Report%20to%20the%20President%20on%20IT%20Modernization%20-%20Draft.pdf"
+
+
+# GA and GitHub data
+google_analytics_ua: UA-104788385-1
+repo: https://github.com/GSA/modernization
+
+uswds_path: assets/vendor/uswds
+
+exclude:
+- CONTRIBUTING.md
+- _config.yml
+- .travis.yml
+- .gitignore
+- Gemfile
+- Gemfile.lock
+- LICENSE.md
+- README.md
+- vendor
+- gulpfile.js
+- manifest.yml
+- package.json
+- Staticfile
+- Staticfile.auth
+- node_modules
+- .nvmrc
+- .sass-cache
+- todo.txt
+- assets/sass
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+collections:
+  pages:
+    output: true
+    #permalink: /:path/
+
